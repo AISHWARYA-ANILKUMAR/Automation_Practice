@@ -1,0 +1,10 @@
+{
+"timeoutKey" :
+
+{
+    "maxTimeout": "9000",
+    "minTimeout": "3000",
+    "midTimeout": "2000"
+
+}
+}
