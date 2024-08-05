@@ -20,18 +20,30 @@ export default class CommonPage
 
     }
 
+    /**
+     * The function is to generate random first names
+     * @returns {number}
+     */
     async randomFirstName() {
         const firstNames = ['John', 'Jane', 'Alex', 'Emily', 'Michael', 'Sarah', 'David', 'Laura', 'Chris', 'Jessica'];
         const randomIndex = Math.floor(Math.random() * firstNames.length);
         return firstNames[randomIndex];
     }
     
+/**
+ * The function is to generate random last names   
+ * @returns {number}
+ */
     async randomLastName() {
         const lastNames = ['Smith', 'Johnson', 'Williams', 'Jones', 'Brown', 'Davis', 'Miller', 'Wilson', 'Moore', 'Taylor'];
         const randomIndex = Math.floor(Math.random() * lastNames.length);
         return lastNames[randomIndex];
     }
     
+    /**
+     * The function is to generate random postal codes
+     * @returns {number}
+     */
 
     async randomPostalCode() {
         let postalCode = '68'; 

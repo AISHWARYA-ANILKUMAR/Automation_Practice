@@ -15,6 +15,10 @@ class LoginPage extends CommonPage
     }
 
 
+    /**
+     *  The function to extract the login details and login into the application
+     */
+
 
     async Login(){
         let loginDiv=await this.$userName().getText();

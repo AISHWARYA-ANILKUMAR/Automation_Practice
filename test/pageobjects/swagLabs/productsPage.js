@@ -91,6 +91,10 @@ class ProductPage extends CommonPage {
         return pricesArrayTwo;
     }
 
+    /**
+     * The function to add products to the cart and count the number of  products in the cart
+     * @returns {number}
+     */
     async addProductsToCart() {
         let countOfProductsInCart = 0;
         for (let i = 1; i <= 3; i++) { 
