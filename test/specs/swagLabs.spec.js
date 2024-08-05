@@ -1,15 +1,15 @@
 import loginPage from "../pageobjects/swagLabs/loginPage.js";
 import productsPage from "../pageobjects/swagLabs/productsPage.js";
-import cartPage from "../pageobjects/swagLabs/cartPage,.js";
+import cartPage from "../pageobjects/swagLabs/cartPage.js";
 import checkoutPageFirst from "../pageobjects/swagLabs/checkoutPageFirst.js";
 import checkoutPageSecond from "../pageobjects/swagLabs/checkoutPageSecond.js";
 import checkoutCompletePage from "../pageobjects/swagLabs/checkoutCompletePage.js";
 import data from "../testData/timeout.json" assert {"type" : "json"}
 
 
-let firstName = await checkoutPageFirst.randomFirstName()
-let lastName = await checkoutPageSecond.randomLastName()
-let postalCode = await checkoutPageFirst.randomPostalCode()
+let firstName = checkoutPageFirst.randomFirstName()
+let lastName = checkoutPageSecond.randomLastName()
+let postalCode = checkoutPageFirst.randomPostalCode()
 
 describe("Swag Labs Website  End-To-End Flow ",() => {
 
